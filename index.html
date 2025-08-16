@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: start;
+        font-family: sans-serif;
+      }
+
+      .author-info {
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+      .container{
+        width: 336px;
+        height: auto;
+        padding: 16px;
+        background: whitesmoke;
+        display: flex;
+        border-radius: 16px;
+        flex-wrap: wrap;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.2);
+      }
+      .container-img{
+        max-width: 100%;
+        max-height: 252px;
+        object-fit: cover;
+        border-radius: 16px;
+      }
+      .container-category{
+        width: 100%;
+        margin-top: 16px;
+        background: whitesmoke;
+        padding: 4px;
+        padding-left: 16px;
+        color: purple;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .container-title{
+        margin-top: 16px;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .container-description{
+        width: 100%;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 6px;
+        color: darkslategrey;
+        margin-bottom: 20px;
+      }
+      .container-author{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      hr{
+        width: 100%;
+        border: 1px solid #ccc;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- Design
+
+  Embracing Minimalism
+
+  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+
+  Annie Spratt -->
+
+    <div class="author-info">
+      Coded by <a href="#">Neonwaac & Crixs</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+    <div class="container">
+      <img class="container-img" src="./resources/Cactus.jpg">
+      <a class="container-category"href="#">Design</a>
+      <h1 class="container-title">Embracing Minimalism</h1>
+      <p class="container-description">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity </p>
+      <hr>
+      <a class="container-author"href="#">Annie Sprat</a>
+    </div>
+  </body>
+</html>
